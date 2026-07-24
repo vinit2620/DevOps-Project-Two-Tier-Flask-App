@@ -15,8 +15,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run a simple check
-        uses: echo "Pipeline is running!"
+        run: echo "Pipeline is running!"
 
       - name: List files
-        runs: ls -la
+        run: ls -la
 
