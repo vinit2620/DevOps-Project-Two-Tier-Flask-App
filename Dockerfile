@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copy requirements and install
-COPY requirements.txt .
+COPY requirement.txt .
 RUN pip install --no-cache-dir -r requirement.txt
 
 # Copy the rest of the app
