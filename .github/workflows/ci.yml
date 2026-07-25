@@ -24,3 +24,5 @@ jobs:
       - name: Check app.py imports correctly
         run: python -c "import app"
 
+      - name: Build Docker image
+        run: docker build -t myapp .
